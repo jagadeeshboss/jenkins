@@ -203,6 +203,14 @@
   </properties>
 
   <profiles>
+         <profile>
+                <id>sonar</id>
+                <properties>
+                       <sonar.host.url>
+                              http://localhost:9000
+                              </sonar.host.url>
+                </properties>
+         </profile>
     <!-- Profiles for Integration tests -->
     <profile>
       <id>itest</id>
